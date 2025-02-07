@@ -16,6 +16,8 @@ Steps Followed
 •	Loaded the FAISS index and retrieved relevant document chunks.
 •	Passed the retrieved text as context to the Llama 3 8B Instruct v1 model.
 •	Displayed the response in the VS Code terminal.
+
+
 Issues Encountered
 1. ModuleNotFoundError for langchain_community
 •	The import statement for BedrockEmbeddings was outdated.
